@@ -5,17 +5,13 @@ Monitor CPU and memory usage in a local Lubuntu VM and auto-scale to GCP when th
 
 ## 📂 Project Structure
 
-- `flask_app/`: Simple Python app running on port 5000
 - `prometheus/`: Prometheus configuration (targets, scrape intervals)
 - `auto_scale.sh`: Bash script to check usage and launch GCP VM
-- `crontab.txt`: Cron entry for running the script every 5 minutes
-- `logs/`: Sample log entries
-- `screenshots/`: (Optional) Graphs and GCP instance proof
+
 
 ## ⚙️ Tech Stack
 - Lubuntu 22.04 (inside VirtualBox)
 - Prometheus + Node Exporter
-- Python Flask
 - Google Cloud CLI (`gcloud`)
 - Bash scripting
 
